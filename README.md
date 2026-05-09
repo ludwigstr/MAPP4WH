@@ -11,7 +11,7 @@ Five robotic movers cooperatively route cables (wire harnesses) to a sequence of
 **Requirements:** Python ≥ 3.10, a working MuJoCo installation.
 
 ```bash
-git clone https://github.com/<your-username>/MAPP4WH.git
+git clone https://github.com/ludwigstr/MAPP4WH.git
 cd MAPP4WH
 pip install -e .
 ```
@@ -90,8 +90,6 @@ TARGET_SEQUENCE = [4,2,3,1,0]  # order of target configurations
 ├── config.py            # all parameters
 ├── calculations.py      # geometry helpers
 ├── xml_utils.py         # MuJoCo XML utilities
-├── theta_star.py        # Theta* path planner
-├── path_smoother.py     # path post-processing
 ├── pyproject.toml       # package definition
 └── data/
     ├── WireHarness012e.xml   # MuJoCo scene model
@@ -123,6 +121,6 @@ If you use this environment in your research, please cite:
 @software{mapp4wh_tnt_sb3,
   title  = {Wire Harness Routing Gymnasium Environment},
   year   = {2025},
-  url    = {https://github.com/<your-username>/MAPP4WH}
+  url    = {https://github.com/ludwigstr/MAPP4WH}
 }
 ```
