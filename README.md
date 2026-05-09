@@ -4,6 +4,8 @@ A [Gymnasium](https://gymnasium.farama.org/)-compatible reinforcement learning e
 
 Five robotic movers cooperatively route cables (wire harnesses) to a sequence of target configurations while avoiding collisions.
 
+![Simulation Preview](image.png)
+
 ---
 
 ## Installation
